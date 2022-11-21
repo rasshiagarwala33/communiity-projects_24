@@ -100,13 +100,44 @@ We want to add more  features and want to try out Courier's Automation API in Fu
 ![image](https://raw.githubusercontent.com/cyrixninja/CourierHacks/main/screenshots/8.png)
 
 
-[Call to action: Try building this project and do tag me @rasshiagarwala33 and @cyrixninja when you do!]
+# Message from developers
+
+This is an open-source project. Feel Free to Fork it or Make Pull Requests to this project. We would love it if anyone wanted to contribute to this project and want to help in creating a perfect student platform. You can contact us at cyrixninja#0157 or ninnza#2681 if you got any doubts regarding implementing any new feature in this project. You should host each app individually and add their iframe in their respective HTML page. We used replit for hosting, you can use any services you like. If you face any difficulty in testing or usage, you can contact us for files with API or for our API keys. You can also use node js, go, or any programming language. Since the main page is static and features are embedded in the main page you can use always add a page with a hosted backend in any programming language and it would work flawlessly.
+We can't wait to see how this platform turns out in the future. Thanks for showing your interest in our project.😁
 
 ## About the Author
 
-[Introduce yourself, talk about your interests, types of projects you like building, skills, etc.]
+Hello I am Rashi Agarwal,final year student persuing BTech in Computer Science And Engineering,a passionate engineer in the making and have my interest in developement and ai (Machine Learning,Deep Learning,Natural Language Processing and Python Developement).Quite interested in heathcare development,looking forward to create some interesting software solution for the current society problems. 
 
 ## Quick Links
 
-🔗 [link all resources you use to build this project]
-🔗 [e.g. documentation, stackoverflow pages, youtube videos, etc.]
+# API,Frameworks and Plaforms used in development
+
+<a href="https://www.courier.com/docs/guides/getting-started/python/">Courier API</a>
+
+<a href="https://flask.palletsprojects.com/en/2.2.x/">Python Flask </a>
+
+<a href="https://firebase.google.com/docs/database">FireBase Realtime Database</a>
+
+<a href="https://docs.cohere.ai/">Cohere's NLP API</a>
+
+<a href="https://replit.com/">Replit </a>
+
+<a href="https://code.visualstudio.com/">Visual Studio Code</a>
+ 
+ <a href="https://github.com/">Github</a>
+ 
+# What we used API's and Framworks for 
+
+Courier API- Courier provides app-to-user notifications and is  central to our app as it is based totally on receiving Email Notification.We used <a href="https://www.courier.com/docs/elemental/">Courier Elemental </a> for our app to user notifications.It provides really good and quick notification to our users.
+
+Python Flask- Flask serves as an backend to our project
+
+Firebase Realtime Database- We used it as an database to store user data.It's very safe and secure to use.
+
+Cohere's NLP API- We used to generate responses in our AI Advice Feature.
+
+Github Pages- We used it to host our website
+
+# YouTube Video Tutorial Link :- 
+https://www.youtube.com/watch?v=i0xsM9EYS48
