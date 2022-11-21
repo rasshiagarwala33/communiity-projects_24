@@ -1,10 +1,17 @@
-# [Replace with Project Title]
+# EduHub
 
 ## Background
 
-[2-3 sentences: What is this project about? Why did you build it? What problem does it solve?]
+Our project for Courier Hacks is EduHub. EduHub is a platform for all your educational needs built using Python ,Flask ,Courier's API and Cohere's API.Here,you can get any information on your quesry through an email suggestion with a single click, which includes giving and taking advices(both anonymous and ),conection with new people, donating books to the needy all through a click.
 
-[1-3 sentences: Tool and technologies used in this project any why you chose to use them.]
+API,Frameworks and Plaforms used in development
+- Courier API
+- Python Flask
+- Firebase Realtime Database
+- Cohore's NLP API
+- Replit 
+- Visual Studio Code 
+- Github
 
 ## Instructions
 
