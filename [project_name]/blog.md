@@ -100,7 +100,7 @@ We want to add more  features and want to try out Courier's Automation API in Fu
 ![image](https://raw.githubusercontent.com/cyrixninja/CourierHacks/main/screenshots/8.png)
 
 
-[Call to action: e.g. try building this project and tag me @shreythecray when you do!]
+[Call to action: Try building this project and do tag me @rasshiagarwala33 and @cyrixninja when you do!]
 
 ## About the Author
 
