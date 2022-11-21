@@ -20,9 +20,12 @@ API,Frameworks and Plaforms used in development
 
 ## Instructions
 
-### Part 1: [Replace with Subtitle]
+### Part 1: All about the project
 
-[What are you building in this project]
+#Why did we build this project ?
+
+Whenever we sign up on educational platforms we always need to sign up to use anything.No feature is usable without signing up. That's a huge concern for us these days. We really care about privacy and protecting our credentials. So we decided to make a  platform for all your educational needs that doesn't require a sign up or anything. We have added a lot of features to EduHub. Also we sometimes felt a need for a news notification service that's completely open-source and provides you with daily news notifications about your desired topic. We always thought that it would make our lives easier as students as we can get news notifications about anything we are learning or want to learn about. Like when I was trying to learn about astrophysics I felt a need for an email service that would give me the latest news about astrophysics or anything I want to learn about .   
+
 
 1. [describe step]
 2. [describe step]
