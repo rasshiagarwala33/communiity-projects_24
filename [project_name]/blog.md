@@ -36,7 +36,7 @@ Whenever we sign up on educational platforms we always need to sign up to use an
 
 ### Part 2: [Replace with Subtitle]
 
-[What are you building in this project]
+# What are you building in this project
 
 1. [describe step]
 2. [describe step]
