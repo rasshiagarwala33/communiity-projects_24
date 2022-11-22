@@ -1,10 +1,23 @@
 # EduHub
 
-EduHub is a platform for all your educational needs built using Python ,Flask ,Courier's API and Cohere's NLP  API.
+Eduhub is an educational platform powered by Courier. It has five main features-
+1. Daily News- Provides you with daily academic news relating to your  field of interest or topic on your email.
+2. Connect- Helps you connect with fellow students easily.
+3.AI Advice- Provides you with academic advice or answers to the questions you want instantly powered by an NLP API 
+4. Anonymous  Advice- Helps you seek advice from anonymous people instantly without any sign-up or registration
+5. Donate Books - On this page, you can donate your old books to people in need.
+All these features are powered by Courier API .We used email notifications in all of the above features. Email Notifications using courier will provides seamless experience to our users.
 
 <img src="https://raw.githubusercontent.com/cyrixninja/CourierHacks/main/screenshots/1.png">
 
-# Inspiration💡
+## Open Source
+
+- [ ] Fork this repository
+- [ ] Add a link to your version of this project at the end of the readme.md file
+- [ ] Make a pull request to this repository
+- [ ] Start building on top of the code
+
+# Inspiration for this project 💡
 Whenever we sign up on educational platforms we always need to sign up to use anything.No feature is usable without signing up. That's a huge concern for us these days. We really care about privacy and protecting our credentials. So we decided to make a  platform for all your educational needs that doesn't require a sign up or anything. We have added a lot of features to EduHub. Also we sometimes felt a need for a news notification service that's completely open-source and provides you with daily news notifications about your desired topic. We always thought that it would make our lives easier as students as we can get news notifications about anything we are learning or want to learn about. Like when I was trying to learn about astrophysics I felt a need for an email service that would give me the latest news about astrophysics or anything I want to learn about.   
 
 # API,Frameworks and Plaforms needed for development
@@ -20,15 +33,15 @@ Whenever we sign up on educational platforms we always need to sign up to use an
 
 # Features 
 
-### 1.Daily News Notification: It provides you daily news notification about your desired topic. Just type your email and you'll get daily news notification about your topic. It will help you to keep yourself with current academic news or the thing you're learning about currently.
+#### 1.Daily News Notification: It provides you daily news notification about your desired topic. Just type your email and you'll get daily news notification about your topic. It will help you to keep yourself with current academic news or the thing you're learning about currently.
 
-### 2.Connect with People: It's a page where you can meet with fellow students and people around you. Just type in your information and we'll let you know if anyone wants to connect with you in your inbox.
+#### 2.Connect with People: It's a page where you can meet with fellow students and people around you. Just type in your information and we'll let you know if anyone wants to connect with you in your inbox.
 
-### 3.AI Advice: Ever stuck or unable to make a decision? I have been in that situation a lot of times. Well then need a quick reply? We got you. Our AI Advice service is powered by Courier's API and Cohere's NLP API. Enter your query and email address and our service will give you a quick response in your inbox.
+#### 3.AI Advice: Ever stuck or unable to make a decision? I have been in that situation a lot of times. Well then need a quick reply? We got you. Our AI Advice service is powered by Courier's API and Cohere's NLP API. Enter your query and email address and our service will give you a quick response in your inbox.
 
-### 4:Anonymous Advice: Aren't satisfied with our AI's Advice? Then you can try taking advice from fellow students and get your problem or query resolved. It will be anonymous and you don't need to sign up for an account to use it. Whenever someone replies, you'll get an email from us about their reply.
+#### 4:Anonymous Advice: Aren't satisfied with our AI's Advice? Then you can try taking advice from fellow students and get your problem or query resolved. It will be anonymous and you don't need to sign up for an account to use it. Whenever someone replies, you'll get an email from us about their reply.
 
-### 5.Donate Books: We all have some books that we don't use after quite a while. Well then you can always donate them to people who really need it. Just type your email and add some information about the book you wanna donate. Whenever anyone wants your books we'll contact you with their information in your inbox
+#### 5.Donate Books: We all have some books that we don't use after quite a while. Well then you can always donate them to people who really need it. Just type your email and add some information about the book you wanna donate. Whenever anyone wants your books we'll contact you with their information in your inbox
 
 # Instructions
 
