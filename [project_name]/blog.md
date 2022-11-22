@@ -42,16 +42,16 @@ cd backend
 
 ### A) Setting up Daily News Notification Backend
 
-### 1. Navigate into the news directory in Backend Folder 
+#### 1. Navigate into the news directory in Backend Folder 
  ```
  cd news 
  cd webapp
  code .
  ```
 
-### 2. Add your API Keys and Credentials to following lines in app.py
+#### 2. Add your API Keys and Credentials to following lines in app.py
 
-#### Add your Firebase Credentials on line 8 and 10 respectively
+##### Add your Firebase Credentials on line 8 and 10 respectively
    To generate firebase credentials follow this link [here](https://firebase.google.com/docs/database/admin/start)
    ```
   cred_obj = firebase_admin.credentials.Certificate('<JSON>')
@@ -59,7 +59,7 @@ default_app = firebase_admin.initialize_app(cred_obj, {
 	'databaseURL':"<DATABASE URL>"
 	})
    ```
-#### Add your Courier API Key on Line 116
+##### Add your Courier API Key on Line 116
  To generate Courier API Key follow this link [here](https://help.courier.com/en/articles/4677510-using-environments-api-keys-and-migrating-assets)
 ```
         headers = {
@@ -69,20 +69,20 @@ default_app = firebase_admin.initialize_app(cred_obj, {
 }
 
 ```
-#### 3. Now the code is ready to run. You can host it on any of the services like replit or heroku.We used replit for hosting it.Please Copy the link of hosted app url.You'll need it when we start assemblying the project.
+##### 3. Now the code is ready to run. You can host it on any of the services like replit or heroku.We used replit for hosting it.Please Copy the link of hosted app url.You'll need it when we start assemblying the project.
 
 
 ### B) Setting up Connect Backend
 
-### 1. Navigate into the Connect directory in Backend Folder 
+#### 1. Navigate into the Connect directory in Backend Folder 
  ```
  cd connect
  code .
  ```
 
-### 2. Add your API Keys and Credentials to following lines in app.py
+#### 2. Add your API Keys and Credentials to following lines in app.py
 
-#### Add your Firebase Credentials on line 11 and 13 respectively
+##### Add your Firebase Credentials on line 11 and 13 respectively
    To generate firebase credentials follow this link [here](https://firebase.google.com/docs/database/admin/start)
    ```
   cred_obj = firebase_admin.credentials.Certificate('<JSON>')
@@ -90,7 +90,7 @@ default_app = firebase_admin.initialize_app(cred_obj, {
 	'databaseURL':"<DATABASE URL>"
 	})
    ```
-#### Add your Courier API Key on Line 95
+##### Add your Courier API Key on Line 95
  To generate Courier API Key follow this link [here](https://help.courier.com/en/articles/4677510-using-environments-api-keys-and-migrating-assets)
 ```
         headers = {
@@ -100,20 +100,20 @@ default_app = firebase_admin.initialize_app(cred_obj, {
 }
 
 ```
-#### 3. Now the code is ready to run. You can host it on any of the services like replit or heroku.We used replit for hosting it.Please Copy the link of hosted app url.You'll need it when we start assemblying the project.
+##### 3. Now the code is ready to run. You can host it on any of the services like replit or heroku.We used replit for hosting it.Please Copy the link of hosted app url.You'll need it when we start assemblying the project.
 
 
 ### C) Setting up Donate Backend
 
-### 1. Navigate into the Donate directory in Backend Folder 
+#### 1. Navigate into the Donate directory in Backend Folder 
  ```
  cd donate
  code .
  ```
 
-### 2. Add your API Keys and Credentials to following lines in app.py
+#### 2. Add your API Keys and Credentials to following lines in app.py
 
-#### Add your Firebase Credentials on line 10 and 12 respectively
+##### Add your Firebase Credentials on line 10 and 12 respectively
    To generate firebase credentials follow this link [here](https://firebase.google.com/docs/database/admin/start)
    ```
   cred_obj = firebase_admin.credentials.Certificate('<JSON>')
@@ -121,7 +121,7 @@ default_app = firebase_admin.initialize_app(cred_obj, {
 	'databaseURL':"<DATABASE URL>"
 	})
    ```
-#### Add your Courier API Key on Line 93
+##### Add your Courier API Key on Line 93
  To generate Courier API Key follow this link [here](https://help.courier.com/en/articles/4677510-using-environments-api-keys-and-migrating-assets)
 ```
         headers = {
@@ -136,21 +136,21 @@ default_app = firebase_admin.initialize_app(cred_obj, {
 
 ### D) Setting up AI Advice Backend
 
-### 1. Navigate into the Advice directory in Backend Folder 
+#### 1. Navigate into the Advice directory in Backend Folder 
  ```
  cd advice 
  cd ai-advice
  code .
  ```
 
-### 2. Add your API Keys and Credentials to following lines in app.py
+#### 2. Add your API Keys and Credentials to following lines in app.py
 
-#### Add your Cohere NLP Credentials on line 9 
+##### Add your Cohere NLP Credentials on line 9 
    To generate Cohere credentials follow this link [here](https://docs.cohere.ai/)
    ```
 co = cohere.Client('APIKEY')
    ```
-#### Add your Courier API Key on Line 62
+##### Add your Courier API Key on Line 62
  To generate Courier API Key follow this link [here](https://help.courier.com/en/articles/4677510-using-environments-api-keys-and-migrating-assets)
 ```
         headers = {
@@ -164,16 +164,16 @@ co = cohere.Client('APIKEY')
 
 ### E) Setting up Anonymous Advice Backend
 
-### 1. Navigate into the Anonymous directory in Backend Folder 
+#### 1. Navigate into the Anonymous directory in Backend Folder 
  ```
  cd advice
  cd anonymous-advice
  code .
  ```
 
-### 2. Add your API Keys and Credentials to following lines in app.py
+#### 2. Add your API Keys and Credentials to following lines in app.py
 
-#### Add your Firebase Credentials on line 10 and 12 respectively
+##### Add your Firebase Credentials on line 10 and 12 respectively
    To generate firebase credentials follow this link [here](https://firebase.google.com/docs/database/admin/start)
    ```
   cred_obj = firebase_admin.credentials.Certificate('<JSON>')
@@ -181,7 +181,7 @@ default_app = firebase_admin.initialize_app(cred_obj, {
 	'databaseURL':"<DATABASE URL>"
 	})
    ```
-#### Add your Courier API Key on Line 88
+##### Add your Courier API Key on Line 88
  To generate Courier API Key follow this link [here](https://help.courier.com/en/articles/4677510-using-environments-api-keys-and-migrating-assets)
 ```
         headers = {
@@ -193,7 +193,117 @@ default_app = firebase_admin.initialize_app(cred_obj, {
 ```
 #### 3. Now the code is ready to run. You can host it on any of the services like replit or heroku.We used replit for hosting it.Please Copy the link of hosted app url.You'll need it when we start assemblying the project.
 
+## Part 2: Connecting it all together
 
+### Head Over to the following HTML Files and Add the hyperlinks of the Hosted Website that you did on last step in Following Lines
+#### Add your Daily News Notification Website link on the line 96 in news.html
+```
+ <section class="py-6">
+        <div class="container-lg">
+          <div class="row flex-center mb-5">
+            <div class="col-auto text-center my-4">
+            </div>
+            <center>
+              <iframe src="<WEBSITE URL>"  scrolling="no" style=" width: 1000px; height: 500px;  overflow: hidden;" ></iframe>
+          </center>
+          </div>
+      </section>
+```
+
+#### Add your Connect Website link on the line 97 and 108 in connect.html
+```
+      <section class="py-6">
+        <div class="container-lg">
+          <div class="row flex-center mb-5">
+            <div class="col-auto text-center my-4">
+              <h1 class="mb-4 fw-bold"></h1>
+            </div>
+            <center>
+              <iframe src="<WEBSITE URL>"  scrolling="no" style=" width: 1000px; height: 600px;  overflow: hidden;" ></iframe>
+          </center>
+          </div>
+      </section>
+      
+      <section class="py-6">
+        <div class="container-lg">
+          <div class="row flex-center mb-5">
+            <div class="col-auto text-center my-4">
+              <h1 class="mb-4 fw-bold">People Available to Connect</h1>
+            </div>
+            <center>
+              <iframe src="<WEBSITE URL>/connect"  scrolling="no" style=" width: 1000px; height: 600px;  overflow: hidden;" ></iframe>
+          </center>
+          </div>
+      </section>
+```
+
+#### Add your Donate Website link on the line 97 and 108  in donate.html
+```
+      <section class="py-6">
+        <div class="container-lg">
+          <div class="row flex-center mb-5">
+            <div class="col-auto text-center my-4">
+              <h1 class="mb-4 fw-bold">Donate your books</h1>
+            </div>
+            <center>
+              <iframe src="<WEBSITE URL>"  scrolling="no" style=" width: 1000px; height: 600px;  overflow: hidden;" ></iframe>
+          </center>
+          </div>
+      </section>
+      <section class="py-6">
+        <div class="container-lg">
+          <div class="row flex-center mb-5">
+            <div class="col-auto text-center my-4">
+              <h1 class="mb-4 fw-bold">Available Books</h1>
+            </div>
+            <center>
+              <iframe src="<WEBSITE URL>/books"  scrolling="no" style=" width: 1000px; height: 600px;  overflow: hidden;" ></iframe>
+          </center>
+          </div>
+      </section>
+```
+
+#### Add your ad-advice link on the line 97  in autoadvice.html
+```
+    <section class="py-6">
+        <div class="container-lg">
+          <div class="row flex-center mb-5">
+            <div class="col-auto text-center my-4">
+              <h1 class="mb-4 fw-bold">Ask your questions below</h1>
+            </div>
+            <center>
+              <iframe src="<WEBSITE URL>"  scrolling="no" style=" width: 1000px; height: 600px;  overflow: hidden;" ></iframe>
+          </center>
+          </div>
+      </section>
+```
+#### Add your Donate Website link on the line 97 and 108  in advice.html
+
+      <section class="py-6">
+        <div class="container-lg">
+          <div class="row flex-center mb-5">
+            <div class="col-auto text-center my-4">
+              <h1 class="mb-4 fw-bold">Get an advice</h1>
+            </div>
+            <center>
+              <iframe src="<WEBSITE URL>"  scrolling="no" style=" width: 1000px; height: 600px;  overflow: hidden;" ></iframe>
+          </center>
+          </div>
+      </section>
+      <section class="py-6">
+        <div class="container-lg">
+          <div class="row flex-center mb-5">
+            <div class="col-auto text-center my-4">
+              <h1 class="mb-4 fw-bold">Give Advice</h1>
+            </div>
+            <center>
+              <iframe src="<WEBSITE URL>/advice"  scrolling="no" style=" width: 1000px; height: 600px;  overflow: hidden;" ></iframe>
+          </center>
+          </div>
+      </section>
+
+## Part 3: Hosting Webiste 
+### You can host your webiste on Github Pages or Replit once you're done adding the hyperlinks.Your website is ready to go now!
 
 # Image Gallery(Email Notifications)
 ![image](https://raw.githubusercontent.com/cyrixninja/CourierHacks/main/screenshots/0.png)
@@ -220,8 +330,9 @@ We can't wait to see how this platform turns out in the future. Thanks for showi
 
 ## About the Author
 
-Hello I am Rashi Agarwal,final year student persuing BTech in Computer Science And Engineering,a passionate engineer in the making and have my interest in developement and ai (Machine Learning,Deep Learning,Natural Language Processing and Python Developement).Quite interested in heathcare development,looking forward to create some interesting software solution for the current society problems. 
+Hi, I am Harsh Kumar, I am a self taught Full Stack Developer and a Machine Learning Developer.I am doing my Bachelors in Computer Science from the Gujarat Technological University in India.I have a strong interest in Cloud Computing,Linux Kernel Devlopment and Machine Learning.
 
+Hello I am Rashi Agarwal,final year student persuing BTech in Computer Science And Engineering,a passionate engineer in the making and have my interest in developement and ai (Machine Learning,Deep Learning,Natural Language Processing and Python Developement).Quite interested in heathcare development,looking forward to create some interesting software solution for the current society problems. 
 
 # YouTube Video Tutorial Link :- 
 https://www.youtube.com/watch?v=i0xsM9EYS48
