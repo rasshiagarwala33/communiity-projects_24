@@ -18,20 +18,62 @@ Whenever we sign up on educational platforms we always need to sign up to use an
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [GitHub](https://github.com/)
 
-## Instructions
+# Features 
 
-### Part 1: All about the project
+### 1.Daily News Notification: It provides you daily news notification about your desired topic. Just type your email and you'll get daily news notification about your topic. It will help you to keep yourself with current academic news or the thing you're learning about currently.
 
+### 2.Connect with People: It's a page where you can meet with fellow students and people around you. Just type in your information and we'll let you know if anyone wants to connect with you in your inbox.
 
+### 3.AI Advice: Ever stuck or unable to make a decision? I have been in that situation a lot of times. Well then need a quick reply? We got you. Our AI Advice service is powered by Courier's API and Cohere's NLP API. Enter your query and email address and our service will give you a quick response in your inbox.
 
-1. [describe step]
-2. [describe step]
-   ```javascript
-   //code
+### 4:Anonymous Advice: Aren't satisfied with our AI's Advice? Then you can try taking advice from fellow students and get your problem or query resolved. It will be anonymous and you don't need to sign up for an account to use it. Whenever someone replies, you'll get an email from us about their reply.
+
+### 5.Donate Books: We all have some books that we don't use after quite a while. Well then you can always donate them to people who really need it. Just type your email and add some information about the book you wanna donate. Whenever anyone wants your books we'll contact you with their information in your inbox
+
+# Instructions
+
+## Part 1: Setting Up the Backend
+
+```
+git clone https://github.com/cyrixninja/CourierHacks.git
+cd CourierHacks
+cd backend
+```
+
+### Setting up Daily News Notification Backend
+
+### 1. Navigate into the news directory in Backend Folder 
+ ```
+ cd news 
+ cd webapp
+ code .
+ ```
+
+### 2. Add your API Keys and Credentials to following lines in app.py
+
+#### Add your Firebase Credentials on line 8 and 10 respectively
+   To generate firebase credentials follow this link [here](https://firebase.google.com/docs/database/admin/start)
    ```
-3. [describe step]
+  cred_obj = firebase_admin.credentials.Certificate('<JSON>')
+default_app = firebase_admin.initialize_app(cred_obj, {
+	'databaseURL':"<DATABASE URL>"
+	})
+   ```
+#### Add your Courier API Key on Line 116
+ To generate Courier API Key follow this link [here](https://help.courier.com/en/articles/4677510-using-environments-api-keys-and-migrating-assets)
+```
+        headers = {
+  "Accept": "application/json",
+  "Content-Type": "application/json",
+  "Authorization": "Bearer pk_test_<Courier APIKEY>"
+}
 
-### Part 2: Content of this project
+```
+#### 3. Now the code is ready to run. You can host it on any of the services like replit or heroku.We used replit for hosting it.Please Copy the link of hosted app url.You'll need it when we start assemblying the project.
+
+
+### Setting up Daily News Notification Backend
+
 
 
 
