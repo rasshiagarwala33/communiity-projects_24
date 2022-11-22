@@ -40,7 +40,7 @@ cd CourierHacks
 cd backend
 ```
 
-### Setting up Daily News Notification Backend
+### A) Setting up Daily News Notification Backend
 
 ### 1. Navigate into the news directory in Backend Folder 
  ```
@@ -72,8 +72,126 @@ default_app = firebase_admin.initialize_app(cred_obj, {
 #### 3. Now the code is ready to run. You can host it on any of the services like replit or heroku.We used replit for hosting it.Please Copy the link of hosted app url.You'll need it when we start assemblying the project.
 
 
-### Setting up Daily News Notification Backend
+### B) Setting up Connect Backend
 
+### 1. Navigate into the Connect directory in Backend Folder 
+ ```
+ cd connect
+ code .
+ ```
+
+### 2. Add your API Keys and Credentials to following lines in app.py
+
+#### Add your Firebase Credentials on line 11 and 13 respectively
+   To generate firebase credentials follow this link [here](https://firebase.google.com/docs/database/admin/start)
+   ```
+  cred_obj = firebase_admin.credentials.Certificate('<JSON>')
+default_app = firebase_admin.initialize_app(cred_obj, {
+	'databaseURL':"<DATABASE URL>"
+	})
+   ```
+#### Add your Courier API Key on Line 95
+ To generate Courier API Key follow this link [here](https://help.courier.com/en/articles/4677510-using-environments-api-keys-and-migrating-assets)
+```
+        headers = {
+  "Accept": "application/json",
+  "Content-Type": "application/json",
+  "Authorization": "Bearer pk_test_<Courier APIKEY>"
+}
+
+```
+#### 3. Now the code is ready to run. You can host it on any of the services like replit or heroku.We used replit for hosting it.Please Copy the link of hosted app url.You'll need it when we start assemblying the project.
+
+
+### C) Setting up Donate Backend
+
+### 1. Navigate into the Donate directory in Backend Folder 
+ ```
+ cd donate
+ code .
+ ```
+
+### 2. Add your API Keys and Credentials to following lines in app.py
+
+#### Add your Firebase Credentials on line 10 and 12 respectively
+   To generate firebase credentials follow this link [here](https://firebase.google.com/docs/database/admin/start)
+   ```
+  cred_obj = firebase_admin.credentials.Certificate('<JSON>')
+default_app = firebase_admin.initialize_app(cred_obj, {
+	'databaseURL':"<DATABASE URL>"
+	})
+   ```
+#### Add your Courier API Key on Line 93
+ To generate Courier API Key follow this link [here](https://help.courier.com/en/articles/4677510-using-environments-api-keys-and-migrating-assets)
+```
+        headers = {
+  "Accept": "application/json",
+  "Content-Type": "application/json",
+  "Authorization": "Bearer pk_test_<Courier APIKEY>"
+}
+
+```
+#### 3. Now the code is ready to run. You can host it on any of the services like replit or heroku.We used replit for hosting it.Please Copy the link of hosted app url.You'll need it when we start assemblying the project.
+
+
+### D) Setting up AI Advice Backend
+
+### 1. Navigate into the Advice directory in Backend Folder 
+ ```
+ cd advice 
+ cd ai-advice
+ code .
+ ```
+
+### 2. Add your API Keys and Credentials to following lines in app.py
+
+#### Add your Cohere NLP Credentials on line 9 
+   To generate Cohere credentials follow this link [here](https://docs.cohere.ai/)
+   ```
+co = cohere.Client('APIKEY')
+   ```
+#### Add your Courier API Key on Line 62
+ To generate Courier API Key follow this link [here](https://help.courier.com/en/articles/4677510-using-environments-api-keys-and-migrating-assets)
+```
+        headers = {
+  "Accept": "application/json",
+  "Content-Type": "application/json",
+  "Authorization": "Bearer pk_test_<Courier APIKEY>"
+}
+
+```
+#### 3. Now the code is ready to run. You can host it on any of the services like replit or heroku.We used replit for hosting it.Please Copy the link of hosted app url.You'll need it when we start assemblying the project.
+
+### E) Setting up Anonymous Advice Backend
+
+### 1. Navigate into the Anonymous directory in Backend Folder 
+ ```
+ cd advice
+ cd anonymous-advice
+ code .
+ ```
+
+### 2. Add your API Keys and Credentials to following lines in app.py
+
+#### Add your Firebase Credentials on line 10 and 12 respectively
+   To generate firebase credentials follow this link [here](https://firebase.google.com/docs/database/admin/start)
+   ```
+  cred_obj = firebase_admin.credentials.Certificate('<JSON>')
+default_app = firebase_admin.initialize_app(cred_obj, {
+	'databaseURL':"<DATABASE URL>"
+	})
+   ```
+#### Add your Courier API Key on Line 88
+ To generate Courier API Key follow this link [here](https://help.courier.com/en/articles/4677510-using-environments-api-keys-and-migrating-assets)
+```
+        headers = {
+  "Accept": "application/json",
+  "Content-Type": "application/json",
+  "Authorization": "Bearer pk_test_<Courier APIKEY>"
+}
+
+```
+#### 3. Now the code is ready to run. You can host it on any of the services like replit or heroku.We used replit for hosting it.Please Copy the link of hosted app url.You'll need it when we start assemblying the project.
 
 
 
